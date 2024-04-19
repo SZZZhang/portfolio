@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bebb1389.css",
+    "main.js": "/portfolio/static/js/main.e62dd9a6.js",
+    "static/js/453.0bb6e7b6.chunk.js": "/portfolio/static/js/453.0bb6e7b6.chunk.js",
+    "static/media/pop.gif": "/portfolio/static/media/pop.46a1b4512b698037388b.gif",
+    "static/media/routesafer.gif": "/portfolio/static/media/routesafer.03e4671d5a17c136c307.gif",
+    "static/media/coup.jpg": "/portfolio/static/media/coup.422be5d224149e81ba6f.jpg",
+    "static/media/planetary_sim.gif": "/portfolio/static/media/planetary_sim.2fc6a6f9516b0f857652.gif",
+    "static/media/portrait.png": "/portfolio/static/media/portrait.53bf1a5092215484a23c.png",
+    "static/media/coup.gif": "/portfolio/static/media/coup.4e3af2b53ab416c6c8a1.gif",
+    "static/media/fourier.gif": "/portfolio/static/media/fourier.2aa5afec681507c3412a.gif",
+    "static/media/fourier.jpg": "/portfolio/static/media/fourier.7ed7320af344e14aeb3e.jpg",
+    "static/media/pop.jpg": "/portfolio/static/media/pop.08d8368e5fa3b58776a5.jpg",
+    "static/media/taboo.gif": "/portfolio/static/media/taboo.1ebe32cdcb8214b673a9.gif",
+    "static/media/planetary_sim.jpg": "/portfolio/static/media/planetary_sim.2bfe2fcc8a291b892ece.jpg",
+    "static/media/raytracer_img2.jpg": "/portfolio/static/media/raytracer_img2.c4e4666ba21ce3b3a7cb.jpg",
+    "static/media/routesafer.jpg": "/portfolio/static/media/routesafer.15928451862902d13512.jpg",
+    "static/media/raytracer_img1.jpeg": "/portfolio/static/media/raytracer_img1.60c1a5bb0882f85d988f.jpeg",
+    "static/media/raytracer_img4.jpeg": "/portfolio/static/media/raytracer_img4.22cd9e248f5b7f38e57b.jpeg",
+    "static/media/taboo.png": "/portfolio/static/media/taboo.0697a2e435ee576ea822.png",
+    "static/media/raytracer_img3.jpeg": "/portfolio/static/media/raytracer_img3.4ded173fe60aaf7cdac4.jpeg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.0c8e8ed6d9505af5a8c235f8ee61fa9b.svg",
+    "index.html": "/portfolio/index.html",
+    "main.bebb1389.css.map": "/portfolio/static/css/main.bebb1389.css.map",
+    "main.e62dd9a6.js.map": "/portfolio/static/js/main.e62dd9a6.js.map",
+    "453.0bb6e7b6.chunk.js.map": "/portfolio/static/js/453.0bb6e7b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bebb1389.css",
+    "static/js/main.e62dd9a6.js"
+  ]
+}
