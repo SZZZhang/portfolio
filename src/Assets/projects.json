@@ -1,0 +1,39 @@
+{
+    "projects" : [
+        {
+            "name": "Raytracer",
+            "description": "This raytracer creates images using monte carlo path tracing. Basic geometries (spheres, triangles, quads) are organized in a bounding volume hierachy and multiple threads handle rendering parts of the image. Built with C++20"
+            ,"link": "https://github.com/SZZZhang/Raytracer" 
+        },
+        {
+            "name": "Planetary System Simulator",
+            "description": "Simulates a planetary system described in a csv file. User can click and see info about the planets and star. User can also edit planetary system information. Built using JavaFX 3D."
+            , "link" : "https://github.com/SZZZhang/PlanetarySystemSimulator"
+        },
+        {
+            "name": "RouteSafer",
+            "description": "First place winner of Hack the 6ix 2019, with 250+ participants. Using ML to analyse collision data, RouteSafer finds different routes between an origin and a destination and assigns a safety score to them. I made the frontend of the project using React and the Google Maps API"
+            , "link" : "https://devpost.com/software/routesafer"
+        },
+        {
+            "name": "Fourier Epicycles",
+            "description": "Draws a given relation using Fourier epicycles. A series of spinning lines each with their own length and frequency is animated and their sum over time is used to draw the original relation. Built using JavaFX."
+            , "link" : "https://github.com/SZZZhang/FunctionApproximator"
+        },
+        {
+            "name": "Coup",
+            "description": "A web version of the popular card game Coup. I implemented the Socket.IO backend and the game logic. Built using Node.js, Socket.IO, and React."
+            , "link" : "https://github.com/SZZZhang/Coup-Multiplayer-Online-Game"
+        },
+        {
+            "name": "Taboo",
+            "description": "A web version of the game Taboo. Has offline functionality. Built using React."
+            , "link" : "https://github.com/SZZZhang/taboo"
+        },
+        {
+            "name": "POP!",
+            "description": "Flappy bird clone with original graphics by me. Built using PyGame."
+            , "link" : "https://github.com/SZZZhang/POP"
+        }
+    ]
+}

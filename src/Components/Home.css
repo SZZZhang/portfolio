@@ -1,0 +1,55 @@
+#welcome {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100vh;  
+    color: white;
+}
+
+.full-screen {
+    height: 100vh;   
+}
+
+#hello-txt {
+    font-family: sans-serif, Arial, Helvetica;
+    margin: 0 1rem 1rem 1rem;
+}
+
+#portfolio-txt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #f7d1e2;
+    padding: .5rem;
+}
+
+#about-me-txt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #d1d1d1;
+    padding: .5rem;
+}
+
+@media screen and (max-width: 767px) {
+    #animation {
+        height: 70%;
+        padding: 6rem 0rem 1rem 0rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #animation {
+        height: 80%; 
+        padding: 7rem 2rem 2rem 2rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    #animation {
+        height: 80%;
+        padding: 5rem 3rem 1rem 3rem;
+
+    }
+}
