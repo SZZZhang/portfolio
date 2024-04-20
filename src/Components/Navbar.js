@@ -5,7 +5,8 @@ import logo from '../Assets/logo.svg';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
+
 
 function ColorSchemesExample() {
   const location = useLocation();
@@ -25,9 +26,9 @@ function ColorSchemesExample() {
           <img src={logo} alt={'Shirley Zhang'} style={{ width: '3rem', margin: '.5rem' }} />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Projects">Portfolio</Nav.Link>
-            <Nav.Link href="/aboutme">About Me</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#projects">Portfolio</Nav.Link>
+            <Nav.Link href="#aboutme">About Me</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
