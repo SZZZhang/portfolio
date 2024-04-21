@@ -2,3 +2,11 @@
     font-weight: bolder;
     color: black;
 }
+
+.navbar-txt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    padding: .5rem;
+    text-decoration: none;
+}

@@ -12,8 +12,7 @@ class AboutMe extends Component {
             <Col className='d-flex align-items-center'>
                 <Col>
               <h1>About Me</h1>
-              <p>Hi, I’m Shirley! I'm in my senior year of Computer Science at UWaterloo. I'm interested in graphics, robotics, and AI. My experiences include creating features for digital twining application at the AR startup Interaptix, improving a leading crowd simulation software (MassMotion) at ARUP, and working on the performance of a simulator for the autonomous trucking startup Kodiak Robotics.
-              </p>
+              <p>Hi, I’m Shirley! I'm in my senior year of Computer Science at the University of Waterloo. I'm interested in graphics, robotics, and AI. My experiences include working on an autonomous trucking simulator at Kodiak Robotics, improving a leading crowd simulation software (MassMotion) at ARUP, and creating features for a digital twining application at the AR startup Interaptix. </p>
               </Col>
             </Col>
           </Row>

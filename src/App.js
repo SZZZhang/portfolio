@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Router, Route, browserHistory, IndexRoute, HashRouter } from "react-router-dom";
+import { Router, Route, browserHistory, IndexRoute, BrowserRouter } from "react-router-dom";
 
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
@@ -13,7 +13,7 @@ function App() {
   return (
     
     <div className="App">
-      <HashRouter basename="/" hashType="noslash">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar/>
         <switch>
           <Route exact path='/' component={ Home } />
@@ -21,7 +21,7 @@ function App() {
           <Route exact path='/aboutme' component={ AboutMe } />
           <Route component={ NotFound }/>
         </switch>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
