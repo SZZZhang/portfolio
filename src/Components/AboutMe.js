@@ -7,7 +7,7 @@ class AboutMe extends Component {
     render() {
         return (
         <Container >
-          <Row Row xs={2}>
+          <Row Row xs={1} lg={2}>
               <img style={{padding:'3em'}}src={portrait} />
             <Col className='d-flex align-items-center'>
                 <Col>

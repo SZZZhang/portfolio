@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import projectsJson from '../Assets/projects.json';
-import portrait from '../Assets/portrait.png';
 import raytracerImg1 from '../Assets/raytracer_img1.jpeg'
 import raytracerImg2 from '../Assets/raytracer_img2.jpg'
 import raytracerImg3 from '../Assets/raytracer_img3.jpeg'
@@ -22,15 +21,6 @@ import coupImg from '../Assets/coup.jpg'
 import linkIcon from  '../Assets/link_icon.png'
 
 import '../App.css';
-
-// const projects = projectsJson.projects.map((p, idx) => {
-//     return {
-//         name: p.name,
-//         image: require(p.image),
-//         description: p.description
-//     };
-// ffmpeg -i in.mov -pix_fmt rgb8 -r 10 output.gif && gifsicle -O3 output.gif -o output.gif
-// })
 
 const project_image = {
     'Raytracer':  
@@ -86,7 +76,7 @@ class Projects extends Component {
             <Container style={{paddingLeft: '5rem', paddingRight: '5rem'}}>
                 <br/> 
                 <div class="card-columns">
-                <Row Row xs={2} md={3} className="g-4">
+                <Row Row xs={1} md={2} lg={3} className="g-4">
                 {
                     projectsJson.projects.map((project, idx) => (
                     <Col key={idx} style={{padding: "1em"}}>
